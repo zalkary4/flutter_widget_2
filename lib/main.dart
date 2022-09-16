@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/touch_zoom.dart';
+import 'package:flutter_application_1/widgets/container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TouchZoom(),
+      home: const ContainerWidget(),
     );
   }
 }
