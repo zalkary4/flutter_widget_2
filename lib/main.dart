@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/cupertino_activity_indicator.dart';
+import 'package:flutter_application_1/widgets/selectable_text_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CupertinoActivityIndicatorWidget(),
+      home: const SelectableTextWidget(),
     );
   }
 }
