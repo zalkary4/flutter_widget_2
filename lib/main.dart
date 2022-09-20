@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/animation_icon.dart';
+import 'package:flutter_application_1/widgets/grid_paper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimationIconWidget(),
+      home: const GridPaperWidget(),
     );
   }
 }
