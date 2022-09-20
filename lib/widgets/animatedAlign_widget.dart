@@ -15,7 +15,9 @@ class _AnimatedAlignWidgetState extends State<AnimatedAlignWidget> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        selected = !selected;
+        setState(() {
+          selected = !selected;
+        });
       },
       child: Center(
         child: Container(
@@ -25,7 +27,7 @@ class _AnimatedAlignWidgetState extends State<AnimatedAlignWidget> {
           child: AnimatedAlign(
             alignment: selected ? Alignment.topRight : Alignment.bottomLeft,
             duration: const Duration(seconds: 1),
-            curve: Curves.fastOutSlowIn,
+            curve: Curves.easeInBack,
             child: const FlutterLogo(size: 50),
           ),
         ),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/animatedAlign_widget.dart';
+import 'package:flutter_application_1/widgets/cupertino_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimatedAlignWidget(),
+      home: const CupertinoButtonWidget(),
     );
   }
 }
