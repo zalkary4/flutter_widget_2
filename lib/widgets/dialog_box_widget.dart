@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class AnimatedPaddingWidget extends StatefulWidget {
-  const AnimatedPaddingWidget({
+class DialogBoxWidget extends StatefulWidget {
+  const DialogBoxWidget({
     super.key,
   });
 
   @override
-  State<AnimatedPaddingWidget> createState() => _AnimatedPaddingWidgetState();
+  State<DialogBoxWidget> createState() => _DialogBoxWidgetState();
 }
 
-class _AnimatedPaddingWidgetState extends State<AnimatedPaddingWidget> {
+class _DialogBoxWidgetState extends State<DialogBoxWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
