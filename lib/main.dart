@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/widgets/tooltip_wdget.dart';
+import 'package:flutter_application_1/widgets/cupertino_context_menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ToolTipWidget(),
+      home: const CupertinoContextMenuWidget(),
     );
   }
 }
