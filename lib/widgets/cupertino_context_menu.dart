@@ -16,8 +16,8 @@ class _CupertinoContextMenuWidgetState
     return Scaffold(
       body: Center(
         child: SizedBox(
-          width: 100,
-          height: 100,
+          width: 200,
+          height: 200,
           child: CupertinoContextMenu(
             actions: <Widget>[
               CupertinoContextMenuAction(
