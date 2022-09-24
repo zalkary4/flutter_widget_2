@@ -21,7 +21,7 @@ class _TouchZoomState extends State<TouchZoom>
     super.initState();
     _animationController = AnimationController(
         vsync: this, duration: const Duration(milliseconds: 500));
-    _animation = Tween(begin: 1.0, end: 3.0).animate(
+    _animation = Tween(begin: 1.0, end: 5.0).animate(
         CurvedAnimation(parent: _animationController, curve: Curves.easeInOut))
       ..addListener(() {
         setState(() {});
